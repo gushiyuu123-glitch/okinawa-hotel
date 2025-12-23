@@ -35,8 +35,21 @@ export default function Footer() {
         {/* 薄い仕切り線 */}
         <div className="mt-16 border-t border-neutral-300/40" />
 
+        {/* ▼ GUSHIKEN DESIGN リンク（内部リンク強化） */}
+        <p className="mt-8 text-neutral-400 text-[0.8rem] tracking-[0.18em] font-['Inter']">
+          Designed by{' '}
+          <a
+            href="https://gushiken.design"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline underline-offset-4 hover:text-neutral-600 transition"
+          >
+            GUSHIKEN DESIGN
+          </a>
+        </p>
+
         {/* コピーライト */}
-        <p className="mt-6 text-neutral-400 text-xs tracking-[0.22em]">
+        <p className="mt-4 text-neutral-400 text-xs tracking-[0.22em]">
           © 2025 OKINAWA LIGHT RESORT HOTEL
         </p>
 
