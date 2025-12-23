@@ -39,7 +39,7 @@ export default function Footer() {
         <p className="mt-8 text-neutral-400 text-[0.8rem] tracking-[0.18em] font-['Inter']">
           Designed by{' '}
           <a
-            href="https://gushiken.design"
+            href="https://gushikendesign.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="underline underline-offset-4 hover:text-neutral-600 transition"
